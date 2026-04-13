@@ -49,16 +49,18 @@ main {
     border-radius: 10px;
 }
 
-button {
+.boton {
+    display: inline-block;
     background-color: #2d89ef;
     color: white;
     border: none;
     padding: 10px 16px;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
 }
 
-button:hover {
+.boton:hover {
     background-color: #1d6fca;
 }
 
